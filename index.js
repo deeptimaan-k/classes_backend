@@ -1,33 +1,16 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const fs = require('fs');
-const path = require('path');
 const classRoutes = require('./Routes/classRoutes');
-const ClassModel = require('./Models/classModel');
 const app = express();
 require('dotenv').config();
 
 mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
-});
-
-const db = mongoose.connection;
-
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', async () => {
+}).then(() => {
     console.log('Connected to MongoDB');
-
-    try {
-        const dataPath = path.join(__dirname, 'data.json');
-        const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-
-        await ClassModel.deleteMany({});
-        await ClassModel.insertMany(data);
-        console.log('Data imported successfully!');
-    } catch (error) {
-        console.error('Error importing data:', error);
-    }
+}).catch(err => {
+    console.error('MongoDB connection error:', err);
 });
 
 // Middleware to parse JSON requests
@@ -36,6 +19,11 @@ app.use(express.json());
 // API Routes
 app.use('/api', classRoutes);
 
+// Error Handling Middleware
+app.use((err, req, res, next) => {
+    console.error('Error occurred:', err);
+    res.status(500).json({ message: 'An error occurred', error: err.message });
+});
 
 // Start the server
 const PORT = process.env.PORT || 3000;

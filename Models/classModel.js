@@ -15,6 +15,6 @@ const classSchema = new mongoose.Schema({
     subjects: [subjectSchema]
 });
 
-const Class = mongoose.model('Class', classSchema);
+const Class = mongoose.model('Classes', classSchema);
 
 module.exports = Class;
