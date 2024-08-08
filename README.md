@@ -258,11 +258,6 @@ Here is an example of the data structure:
   ]
 }
 ```
-
-### Importing Data on Server Start
-
-The server will automatically import data from `data.json` into the MongoDB database on startup. Ensure that `data.json` is placed in the root directory of the project. The data will be cleared and re-imported each time the server starts.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
