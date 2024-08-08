@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const chapterSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    videoUrl: { type: String } // Field to store the URL of the uploaded video
+    videoUrl: { type: String } 
 });
 
 const subjectSchema = new mongoose.Schema({
