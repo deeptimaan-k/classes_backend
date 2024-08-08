@@ -1,5 +1,4 @@
 const Class = require('../Models/classModel');
-
 exports.getAllClasses = async (req, res) => {
     try {
         const classes = await Class.find();
@@ -177,3 +176,56 @@ exports.deleteChapter = async (req, res) => {
 };
 
 
+exports.addVideo = async (req, res) => {
+    try {
+        const { className, subjectName, chapterId } = req.params;
+        const videoUrl = req.file.location; // Get the video URL from S3
+
+        // Find the class document
+        const classData = await Class.findOne({ class: className });
+        if (!classData) return res.status(404).json({ message: 'Class not found' });
+
+        // Find the subject
+        const subject = classData.subjects.find(sub => sub.name === subjectName);
+        if (!subject) return res.status(404).json({ message: 'Subject not found' });
+
+        // Find the chapter by id
+        const chapterIndex = subject.chapters.findIndex(chap => chap._id.toString() === chapterId);
+        if (chapterIndex === -1) return res.status(404).json({ message: 'Chapter not found' });
+
+        // Update the videoUrl
+        subject.chapters[chapterIndex].videoUrl = videoUrl;
+        await classData.save();
+
+        res.status(200).json({ message: 'Video uploaded successfully', videoUrl });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
+
+
+// Get video URL for a chapter
+// Fetch video URL for a specific chapter
+exports.getVideoUrl = async (req, res) => {
+    try {
+        const { className, subjectName, chapterId } = req.params;
+
+        // Find the class document
+        const classData = await Class.findOne({ class: className });
+        if (!classData) return res.status(404).json({ message: 'Class not found' });
+
+        // Find the subject
+        const subject = classData.subjects.find(sub => sub.name === subjectName);
+        if (!subject) return res.status(404).json({ message: 'Subject not found' });
+
+        // Find the chapter
+        const chapter = subject.chapters.find(chap => chap._id.toString() === chapterId);
+        if (!chapter) return res.status(404).json({ message: 'Chapter not found' });
+
+        // Return the video URL
+        res.status(200).json({ videoUrl: chapter.videoUrl });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};

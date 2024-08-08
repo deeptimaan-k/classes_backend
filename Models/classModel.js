@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 const chapterSchema = new mongoose.Schema({
-    name: { type: String, required: true }
+    name: { type: String, required: true },
+    videoUrl: { type: String } // Field to store the URL of the uploaded video
 });
 
 const subjectSchema = new mongoose.Schema({
@@ -10,7 +11,7 @@ const subjectSchema = new mongoose.Schema({
 });
 
 const classSchema = new mongoose.Schema({
-    class: { type: String, required: true },  // Ensure this matches your data
+    class: { type: String, required: true },
     subjects: [subjectSchema]
 });
 

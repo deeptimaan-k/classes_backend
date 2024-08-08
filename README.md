@@ -1,4 +1,6 @@
 
+---
+
 # Class Management System
 
 ## Description
@@ -10,6 +12,7 @@ This project is a Class Management System built with Node.js, Express.js, and Mo
 - Retrieve all classes.
 - Get subjects by class.
 - Get chapters by subject.
+- Update chapter video URLs.
 
 ## Installation
 
@@ -78,6 +81,23 @@ This project is a Class Management System built with Node.js, Express.js, and Mo
   - `subjectName`: The name of the subject (e.g., `Mathematics`).
 - **Response**: JSON array of chapters.
 
+### Update Chapter Video URL
+
+- **URL**: `api/classes/:className/subjects/:subjectName/chapters/:chapterName/video`
+- **Method**: `PUT`
+- **Description**: Update the video URL for a specific chapter within a subject and class.
+- **URL Params**:
+  - `className`: The name of the class (e.g., `10th`).
+  - `subjectName`: The name of the subject (e.g., `Mathematics`).
+  - `chapterName`: The name of the chapter (e.g., `Federalism`).
+- **Request Body**:
+  ```json
+  {
+    "videoUrl": "http://example.com/video-url"
+  }
+  ```
+- **Response**: Updated chapter with the new video URL.
+
 ## Example Data
 
 Here is an example of the data structure:
@@ -91,8 +111,8 @@ Here is an example of the data structure:
     {
       "name": "Civics",
       "chapters": [
-        { "name": "Federalism" },
-        { "name": "Gender, Religion and Caste" }
+        { "name": "Federalism", "videoUrl": "" },
+        { "name": "Gender, Religion and Caste", "videoUrl": "" }
       ]
     }
   ]
@@ -100,7 +120,7 @@ Here is an example of the data structure:
 ```
 
 ### Importing Data on Server Start
-The server will automatically import data from data.json into the MongoDB database on startup. Ensure that data.json is placed in the root directory of the project. The data will be cleared and re-imported each time the server starts.
+The server will automatically import data from `data.json` into the MongoDB database on startup. Ensure that `data.json` is placed in the root directory of the project. The data will be cleared and re-imported each time the server starts.
 
 ## License
 
@@ -110,3 +130,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Express.js for providing the web framework.
 - Mongoose for MongoDB object modeling.
+
+---

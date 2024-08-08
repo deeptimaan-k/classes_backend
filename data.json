@@ -5,74 +5,74 @@
             {
                 "name": "Civics",
                 "chapters": [
-                    { "name": "Federalism" },
-                    { "name": "Gender, Religion and Caste" },
-                    { "name": "Outcomes of Democracy" },
-                    { "name": "Political Parties" },
-                    { "name": "Power-sharing" }
+                    { "name": "Federalism", "videoUrl": "" },
+                    { "name": "Gender, Religion and Caste", "videoUrl": "" },
+                    { "name": "Outcomes of Democracy", "videoUrl": "" },
+                    { "name": "Political Parties", "videoUrl": "" },
+                    { "name": "Power-sharing", "videoUrl": "" }
                 ]
             },
             {
                 "name": "English",
                 "chapters": [
-                    { "name": "A letter to God" },
-                    { "name": "From the diary of Anne Frank" },
-                    { "name": "Glimpses of India" },
-                    { "name": "Madam rides the bus" },
-                    { "name": "Mijibil the otter" },
-                    { "name": "Nelson Mandela A long walk to Freedom" },
-                    { "name": "The Proposal" },
-                    { "name": "The Sermon at Benares" },
-                    { "name": "Two Stories about Flying" }
+                    { "name": "A letter to God", "videoUrl": "" },
+                    { "name": "From the diary of Anne Frank", "videoUrl": "" },
+                    { "name": "Glimpses of India", "videoUrl": "" },
+                    { "name": "Madam rides the bus", "videoUrl": "" },
+                    { "name": "Mijibil the otter", "videoUrl": "" },
+                    { "name": "Nelson Mandela A long walk to Freedom", "videoUrl": "" },
+                    { "name": "The Proposal", "videoUrl": "" },
+                    { "name": "The Sermon at Benares", "videoUrl": "" },
+                    { "name": "Two Stories about Flying", "videoUrl": "" }
                 ]
             },
             {
                 "name": "History",
                 "chapters": [
-                    { "name": "Nationalism in India" },
-                    { "name": "Print Culture and the Modern World" },
-                    { "name": "The Age of Industrialisation" },
-                    { "name": "The Making of a Global World" },
-                    { "name": "The Rise of Nationalism in Europe" }
+                    { "name": "Nationalism in India", "videoUrl": "" },
+                    { "name": "Print Culture and the Modern World", "videoUrl": "" },
+                    { "name": "The Age of Industrialisation", "videoUrl": "" },
+                    { "name": "The Making of a Global World", "videoUrl": "" },
+                    { "name": "The Rise of Nationalism in Europe", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Mathematics",
                 "chapters": [
-                    { "name": "Answers of Chapter" },
-                    { "name": "Appendix A1 Proofs in Mathematics" },
-                    { "name": "Appendix A2 Mathematical Modelling" },
-                    { "name": "AREAS RELATED TO CIRCLES" },
-                    { "name": "ARITHMETIC PROGRESSIONS" },
-                    { "name": "CIRCLES" },
-                    { "name": "COORDINATE GEOMETRY" },
-                    { "name": "INTRODUCTION TO TRIGONOMETRY" },
-                    { "name": "PAIR OF LINEAR EQUATIONS" },
-                    { "name": "POLYNOMIALS" },
-                    { "name": "PROBABILITY" },
-                    { "name": "QUADRATIC EQUATIONS" },
-                    { "name": "REAL NUMBERS" },
-                    { "name": "SOME APPLICATIONS OF TRIGONOMETRY" },
-                    { "name": "STATISTICS" },
-                    { "name": "SURFACE AREAS AND VOLUMES" },
-                    { "name": "TRIANGLES" }
+                    { "name": "Answers of Chapter", "videoUrl": "" },
+                    { "name": "Appendix A1 Proofs in Mathematics", "videoUrl": "" },
+                    { "name": "Appendix A2 Mathematical Modelling", "videoUrl": "" },
+                    { "name": "AREAS RELATED TO CIRCLES", "videoUrl": "" },
+                    { "name": "ARITHMETIC PROGRESSIONS", "videoUrl": "" },
+                    { "name": "CIRCLES", "videoUrl": "" },
+                    { "name": "COORDINATE GEOMETRY", "videoUrl": "" },
+                    { "name": "INTRODUCTION TO TRIGONOMETRY", "videoUrl": "" },
+                    { "name": "PAIR OF LINEAR EQUATIONS", "videoUrl": "" },
+                    { "name": "POLYNOMIALS", "videoUrl": "" },
+                    { "name": "PROBABILITY", "videoUrl": "" },
+                    { "name": "QUADRATIC EQUATIONS", "videoUrl": "" },
+                    { "name": "REAL NUMBERS", "videoUrl": "" },
+                    { "name": "SOME APPLICATIONS OF TRIGONOMETRY", "videoUrl": "" },
+                    { "name": "STATISTICS", "videoUrl": "" },
+                    { "name": "SURFACE AREAS AND VOLUMES", "videoUrl": "" },
+                    { "name": "TRIANGLES", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Science",
                 "chapters": [
-                    { "name": "Acids, Bases and Salts" },
-                    { "name": "Chemical Reactions and Equations" },
-                    { "name": "Control and Coordination" },
-                    { "name": "Electricity" },
-                    { "name": "Heredity" },
-                    { "name": "How do Organisms Reproduce" },
-                    { "name": "Life Processes" },
-                    { "name": "Light Reflection and Refraction" },
-                    { "name": "Magnetic Effects of Electric Current" },
-                    { "name": "Metals and Non-metals" },
-                    { "name": "Our Environment" },
-                    { "name": "The Human Eye and the colorful world" }
+                    { "name": "Acids, Bases and Salts", "videoUrl": "" },
+                    { "name": "Chemical Reactions and Equations", "videoUrl": "" },
+                    { "name": "Control and Coordination", "videoUrl": "" },
+                    { "name": "Electricity", "videoUrl": "" },
+                    { "name": "Heredity", "videoUrl": "" },
+                    { "name": "How do Organisms Reproduce", "videoUrl": "" },
+                    { "name": "Life Processes", "videoUrl": "" },
+                    { "name": "Light Reflection and Refraction", "videoUrl": "" },
+                    { "name": "Magnetic Effects of Electric Current", "videoUrl": "" },
+                    { "name": "Metals and Non-metals", "videoUrl": "" },
+                    { "name": "Our Environment", "videoUrl": "" },
+                    { "name": "The Human Eye and the colorful world", "videoUrl": "" }
                 ]
             }
         ]
@@ -83,88 +83,88 @@
             {
                 "name": "Civics",
                 "chapters": [
-                    { "name": "A Shirt in the market" },
-                    { "name": "Equality in Indian Democracy" },
-                    { "name": "Growing up as Boys and girls" },
-                    { "name": "How the state government work" },
-                    { "name": "Markets Around Us" },
-                    { "name": "State Government" },
-                    { "name": "Understanding Media" },
-                    { "name": "Women Change the world" }
+                    { "name": "A Shirt in the market", "videoUrl": "" },
+                    { "name": "Equality in Indian Democracy", "videoUrl": "" },
+                    { "name": "Growing up as Boys and girls", "videoUrl": "" },
+                    { "name": "How the state government work", "videoUrl": "" },
+                    { "name": "Markets Around Us", "videoUrl": "" },
+                    { "name": "State Government", "videoUrl": "" },
+                    { "name": "Understanding Media", "videoUrl": "" },
+                    { "name": "Women Change the world", "videoUrl": "" }
                 ]
             },
             {
                 "name": "English",
                 "chapters": [
-                    { "name": "A Gift of Chappals" },
-                    { "name": "A Homage to our Brave soldiers" },
-                    { "name": "Expert Detectives" },
-                    { "name": "Gopal and the Hilsa-fish" },
-                    { "name": "Quality" },
-                    { "name": "The Ashes That Made Trees Bloom" },
-                    { "name": "The Invention of Vita wonk" },
-                    { "name": "The Squirrel" }
+                    { "name": "A Gift of Chappals", "videoUrl": "" },
+                    { "name": "A Homage to our Brave soldiers", "videoUrl": "" },
+                    { "name": "Expert Detectives", "videoUrl": "" },
+                    { "name": "Gopal and the Hilsa-fish", "videoUrl": "" },
+                    { "name": "Quality", "videoUrl": "" },
+                    { "name": "The Ashes That Made Trees Bloom", "videoUrl": "" },
+                    { "name": "The Invention of Vita wonk", "videoUrl": "" },
+                    { "name": "The Squirrel", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Geography",
                 "chapters": [
-                    { "name": "Air" },
-                    { "name": "gess2ps" },
-                    { "name": "Human Environment InteractionsThe Tropical and the Subtropical Region" },
-                    { "name": "Inside Our Earth" },
-                    { "name": "Life in the Deserts" },
-                    { "name": "Water" }
+                    { "name": "Air", "videoUrl": "" },
+                    { "name": "gess2ps", "videoUrl": "" },
+                    { "name": "Human Environment InteractionsThe Tropical and the Subtropical Region", "videoUrl": "" },
+                    { "name": "Inside Our Earth", "videoUrl": "" },
+                    { "name": "Life in the Deserts", "videoUrl": "" },
+                    { "name": "Water", "videoUrl": "" }
                 ]
             },
             {
                 "name": "History",
                 "chapters": [
-                    { "name": "Delhi 12th to 15th Century" },
-                    { "name": "Devotional Paths to the Divine" },
-                    { "name": "Eighteenth-Century Political Formations" },
-                    { "name": "gess1ps" },
-                    { "name": "Introduction Tracing Changes Through a thousand years" },
-                    { "name": "Kings and Kingdoms" },
-                    { "name": "The Making of Regional Cultures" },
-                    { "name": "The Mughals (16th to 17th Century)" },
-                    { "name": "Tribes, Nomads and Settled Communities" }
+                    { "name": "Delhi 12th to 15th Century", "videoUrl": "" },
+                    { "name": "Devotional Paths to the Divine", "videoUrl": "" },
+                    { "name": "Eighteenth-Century Political Formations", "videoUrl": "" },
+                    { "name": "gess1ps", "videoUrl": "" },
+                    { "name": "Introduction Tracing Changes Through a thousand years", "videoUrl": "" },
+                    { "name": "Kings and Kingdoms", "videoUrl": "" },
+                    { "name": "The Making of Regional Cultures", "videoUrl": "" },
+                    { "name": "The Mughals (16th to 17th Century)", "videoUrl": "" },
+                    { "name": "Tribes, Nomads and Settled Communities", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Maths",
                 "chapters": [
-                    { "name": "Algebraic Expressions" },
-                    { "name": "Comparing Quantities" },
-                    { "name": "Data Handling" },
-                    { "name": "Exponents and Powers" },
-                    { "name": "Fractions and Decimals" },
-                    { "name": "Integers" },
-                    { "name": "Lines and Angles" },
-                    { "name": "Perimeter and Area" },
-                    { "name": "Rational Numbers" },
-                    { "name": "Simple Equations" },
-                    { "name": "Symmetry" },
-                    { "name": "The Triangle and its Properties" },
-                    { "name": "Visualising Solid Shapes" }
+                    { "name": "Algebraic Expressions", "videoUrl": "" },
+                    { "name": "Comparing Quantities", "videoUrl": "" },
+                    { "name": "Data Handling", "videoUrl": "" },
+                    { "name": "Exponents and Powers", "videoUrl": "" },
+                    { "name": "Fractions and Decimals", "videoUrl": "" },
+                    { "name": "Integers", "videoUrl": "" },
+                    { "name": "Lines and Angles", "videoUrl": "" },
+                    { "name": "Perimeter and Area", "videoUrl": "" },
+                    { "name": "Rational Numbers", "videoUrl": "" },
+                    { "name": "Simple Equations", "videoUrl": "" },
+                    { "name": "Symmetry", "videoUrl": "" },
+                    { "name": "The Triangle and its Properties", "videoUrl": "" },
+                    { "name": "Visualising Solid Shapes", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Science",
                 "chapters": [
-                    { "name": "Acids, Bases and Salts" },
-                    { "name": "Electric Current and its Effects" },
-                    { "name": "Forests Our Lifeline" },
-                    { "name": "Heat" },
-                    { "name": "Light" },
-                    { "name": "Motion and Time" },
-                    { "name": "Nutrition in Animals" },
-                    { "name": "Nutrition in Plants" },
-                    { "name": "Physical and Chemical Changes" },
-                    { "name": "Reproduction in Plants" },
-                    { "name": "Respiration in Organisms" },
-                    { "name": "Transportation in Animals and Plants" },
-                    { "name": "Wastewater Story" }
+                    { "name": "Acids, Bases and Salts", "videoUrl": "" },
+                    { "name": "Electric Current and its Effects", "videoUrl": "" },
+                    { "name": "Forests Our Lifeline", "videoUrl": "" },
+                    { "name": "Heat", "videoUrl": "" },
+                    { "name": "Light", "videoUrl": "" },
+                    { "name": "Motion and Time", "videoUrl": "" },
+                    { "name": "Nutrition in Animals", "videoUrl": "" },
+                    { "name": "Nutrition in Plants", "videoUrl": "" },
+                    { "name": "Physical and Chemical Changes", "videoUrl": "" },
+                    { "name": "Reproduction in Plants", "videoUrl": "" },
+                    { "name": "Respiration in Organisms", "videoUrl": "" },
+                    { "name": "Transportation in Animals and Plants", "videoUrl": "" },
+                    { "name": "Wastewater Story", "videoUrl": "" }
                 ]
             }
         ]
@@ -175,43 +175,43 @@
             {
                 "name": "English",
                 "chapters": [
-                    { "name": "A Short Monsoon Diary" },
-                    { "name": "A Visit to Cambridge" },
-                    { "name": "Bepin Choudhury's Lapse of Memory" },
-                    { "name": "Glimpses of the Past" },
-                    { "name": "hehd1ps" },
-                    { "name": "The Best Christmas Present in the World" },
-                    { "name": "The Summit Within" },
-                    { "name": "The Tsunami" },
-                    { "name": "This is Jody's Fawn" }
+                    { "name": "A Short Monsoon Diary", "videoUrl": "" },
+                    { "name": "A Visit to Cambridge", "videoUrl": "" },
+                    { "name": "Bepin Choudhury's Lapse of Memory", "videoUrl": "" },
+                    { "name": "Glimpses of the Past", "videoUrl": "" },
+                    { "name": "hehd1ps", "videoUrl": "" },
+                    { "name": "The Best Christmas Present in the World", "videoUrl": "" },
+                    { "name": "The Summit Within", "videoUrl": "" },
+                    { "name": "The Tsunami", "videoUrl": "" },
+                    { "name": "This is Jody's Fawn", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Geography",
                 "chapters": [
-                    { "name": "Agriculture" },
-                    { "name": "Human Resources" },
-                    { "name": "Industries" },
-                    { "name": "Natural Vegetation and Wildlife" },
-                    { "name": "Resources" }
+                    { "name": "Agriculture", "videoUrl": "" },
+                    { "name": "Human Resources", "videoUrl": "" },
+                    { "name": "Industries", "videoUrl": "" },
+                    { "name": "Natural Vegetation and Wildlife", "videoUrl": "" },
+                    { "name": "Resources", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Science",
                 "chapters": [
-                    { "name": "Chemical Effects of Electric Current" },
-                    { "name": "Coal and Petroleum" },
-                    { "name": "Combustion and Flame" },
-                    { "name": "Conservation of Plants and Animals" },
-                    { "name": "Crop Production and Management" },
-                    { "name": "Force and Pressure" },
-                    { "name": "Friction" },
-                    { "name": "Light" },
-                    { "name": "Microorganisms: Friend and Foe" },
-                    { "name": "Reaching the Age of Adolescence" },
-                    { "name": "Reproduction in Animals" },
-                    { "name": "Some Natural Phenomena" },
-                    { "name": "Sound" }
+                    { "name": "Chemical Effects of Electric Current", "videoUrl": "" },
+                    { "name": "Coal and Petroleum", "videoUrl": "" },
+                    { "name": "Combustion and Flame", "videoUrl": "" },
+                    { "name": "Conservation of Plants and Animals", "videoUrl": "" },
+                    { "name": "Crop Production and Management", "videoUrl": "" },
+                    { "name": "Force and Pressure", "videoUrl": "" },
+                    { "name": "Friction", "videoUrl": "" },
+                    { "name": "Light", "videoUrl": "" },
+                    { "name": "Microorganisms: Friend and Foe", "videoUrl": "" },
+                    { "name": "Reaching the Age of Adolescence", "videoUrl": "" },
+                    { "name": "Reproduction in Animals", "videoUrl": "" },
+                    { "name": "Some Natural Phenomena", "videoUrl": "" },
+                    { "name": "Sound", "videoUrl": "" }
                 ]
             }
         ]
@@ -222,34 +222,34 @@
             {
                 "name": "English",
                 "chapters": [
-                    { "name": "A Truly Beautiful Mind" },
-                    { "name": "If I Were You" },
-                    { "name": "Kathmandu" },
-                    { "name": "My Childhood" },
-                    { "name": "Reach for the Top" },
-                    { "name": "The Fun They Had" },
-                    { "name": "The Little Girl" },
-                    { "name": "The Snake and the Mirror" },
-                    { "name": "The Sound of Music" }
+                    { "name": "A Truly Beautiful Mind", "videoUrl": "" },
+                    { "name": "If I Were You", "videoUrl": "" },
+                    { "name": "Kathmandu", "videoUrl": "" },
+                    { "name": "My Childhood", "videoUrl": "" },
+                    { "name": "Reach for the Top", "videoUrl": "" },
+                    { "name": "The Fun They Had", "videoUrl": "" },
+                    { "name": "The Little Girl", "videoUrl": "" },
+                    { "name": "The Snake and the Mirror", "videoUrl": "" },
+                    { "name": "The Sound of Music", "videoUrl": "" }
                 ]
             },
             {
                 "name": "Maths",
                 "chapters": [
-                    { "name": "CIRCLES" },
-                    { "name": "COORDINATE GEOMETRY" },
-                    { "name": "HERON'S FORMULA" },
-                    { "name": "INTRODUCTION TO EUCLID'S GEOMETRY" },
-                    { "name": "INTRODUCTION TO MATHEMATICAL MODELLING" },
-                    { "name": "LINEAR EQUATIONS IN TWO VARIABLES" },
-                    { "name": "LINES AND ANGLES" },
-                    { "name": "NUMBER SYSTEMS" },
-                    { "name": "POLYNOMIALS" },
-                    { "name": "PROOFS IN MATHEMATICS" },
-                    { "name": "QUADRILATERALS" },
-                    { "name": "STATISTICS" },
-                    { "name": "SURFACE AREAS AND VOLUMES" },
-                    { "name": "TRIANGLES" }
+                    { "name": "CIRCLES", "videoUrl": "" },
+                    { "name": "COORDINATE GEOMETRY", "videoUrl": "" },
+                    { "name": "HERON'S FORMULA", "videoUrl": "" },
+                    { "name": "INTRODUCTION TO EUCLID'S GEOMETRY", "videoUrl": "" },
+                    { "name": "INTRODUCTION TO MATHEMATICAL MODELLING", "videoUrl": "" },
+                    { "name": "LINEAR EQUATIONS IN TWO VARIABLES", "videoUrl": "" },
+                    { "name": "LINES AND ANGLES", "videoUrl": "" },
+                    { "name": "NUMBER SYSTEMS", "videoUrl": "" },
+                    { "name": "POLYNOMIALS", "videoUrl": "" },
+                    { "name": "PROOFS IN MATHEMATICS", "videoUrl": "" },
+                    { "name": "QUADRILATERALS", "videoUrl": "" },
+                    { "name": "STATISTICS", "videoUrl": "" },
+                    { "name": "SURFACE AREAS AND VOLUMES", "videoUrl": "" },
+                    { "name": "TRIANGLES", "videoUrl": "" }
                 ]
             }
         ]
