@@ -4,7 +4,6 @@ const classController = require('../Controllers/classController');
 const upload = require('../config/aws-config'); 
 
 router.post('/classes/:className/subjects/:subjectName/chapters/:chapterId/video', upload.single('video'), classController.addVideo);
-
 router.get('/classes/:className/subjects/:subjectName/chapters/:chapterId/video', classController.getVideoUrl);
 
 router.get('/classes', classController.getAllClasses);
